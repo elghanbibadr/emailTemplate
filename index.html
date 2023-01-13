@@ -6,6 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/index.css">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+/* so for the 1rem to became 10px and make the calculation easier */
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.7px;
+}
+
+h1{
+    font-size: 2.2rem;
+    color: #c8d1d6;
+}
+p{
+    font-size: 1.6rem;
+}
+/* CREATE A CONTAINER THAT WRRAPP THE CONTENT AND GIVE IT A MAX WITH TO BE RESPONSIVE */
+.container{
+    max-width: 80rem; 
+    margin-inline:auto;
+    padding: 10px;
+}
+
+img{
+    object-fit: cover;
+
+}
+
+.sendGrid-logo{
+    height: 100px;
+}
+
+
+.confirmEmailBtn-wrraper{
+    display: flex;
+    justify-content: center;
+}
+
+.btn--confirmEmail{
+    background-color: #348eda;
+    padding:  16px 30px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-block: 20px;
+}
+
+
+/*  */
+.sendGrid-smallerLogo-wrraper{
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    /* height: 60px; */
+}
+ .sendGrid-smallerLogo-wrraper img{
+    height: 70px;
+} 
+
+.sendGrid-smallerLogo-wrraper p{
+transform: translateY(-20px);
+font-size: 1.3rem;
+}
+
+
+
+/* footer */
+.footer-links{
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+}
+@media screen and (min-width:786px) {
+    .footer-links{
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+
+.addressName{
+font-size: 1.4rem;
+}
+
+.media-linkList{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.media-linkItems a {
+    text-decoration: none;
+    color: #348eda;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+    </style>
+    
 </head>
 <body>
     <section class="container">
