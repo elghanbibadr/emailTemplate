@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
     <title>Document</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 /* so for the 1rem to became 10px and make the calculation easier */
 html{
     font-size: 62.5%;
@@ -41,8 +38,8 @@ img{
 
 }
 
-.sendGrid-logo{
-    height: 100px;
+.larger-logo{
+    height: 80px;
 }
 
 
@@ -65,7 +62,7 @@ img{
 
 
 /*  */
-.sendGrid-smallerLogo-wrraper{
+.Logo-wrraper{
     display: flex;
     flex-direction: column;
      justify-content: center; 
@@ -73,16 +70,21 @@ img{
     margin-top: 20px;
     /* height: 60px; */
 }
- .sendGrid-smallerLogo-wrraper img{
+ .Logo-wrraper img{
     height: 70px;
 } 
 
-.sendGrid-smallerLogo-wrraper p{
-transform: translateY(-20px);
+.Logo-wrraper p{
+transform: translateY(-10px);
 font-size: 1.3rem;
 }
 
+.small-logo{
+    height: 40px;
+    margin-bottom: 10px;
+    scale: 0.7;
 
+}
 
 /* footer */
 .footer-links{
@@ -114,11 +116,11 @@ font-size: 1.4rem;
     cursor: pointer;
 }
     </style>
-    
+
 </head>
 <body>
     <section class="container">
-        <img class="sendGrid-logo" src="/logo.png" alt="send grid logo">
+        <img class="larger-logo " src="/LOGO (1).png" alt="next task logo">
         <h1>You're on your way! <br>
          Let's confirm your email address
         </h1>
@@ -129,8 +131,8 @@ font-size: 1.4rem;
 
         <!-- second send grid logo img -->
 
-        <div class="sendGrid-smallerLogo-wrraper">
-            <img class="sendGrid-smallerlogo" src="/logo.png" alt="send grid logo">
+        <div class="Logo-wrraper">
+            <img class="small-logo" src="/LOGO (1).png" alt="next task logo">
             <p>Send with confidence</p>
         </div>
 
